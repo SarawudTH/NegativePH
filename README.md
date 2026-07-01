@@ -4,10 +4,10 @@
 
 Data and analysis code for the paper:
 
-> **Temperature-Dependent Nonlinear Calibration of Glass pH Electrodes for Negative pH Applications**
+**Temperature-Dependent Nonlinear Calibration of Glass pH Electrodes for Negative pH Applications**
 Sarawud Saleesongsom, Dominik Weiss\*, and Yves Plancherel
 *ACS Omega* DOI: [10.1021/acsomega.6c01903](https://doi.org/10.1021/acsomega.6c01903)
-\*Corresponding author
+*Corresponding author
 
 This repository contains the raw calibration data, the analysis code (MATLAB and Python), and the derived coefficient tables that underpin the temperature-dependent nonlinear (logistic) calibration model reported in the paper.
 
