@@ -84,12 +84,6 @@ python NegativeCalibrationDiffTemp.py      # -> NegativeCalibration_Logistic_Sta
 python TempVSLogisticCoefficients.py       # -> MC_poly_*_summary.csv
 ```
 
-## Notes
-
-- **MATLAB vs. Python data layout.** The Python scripts read the raw per-run data from the consolidated `EMF-pH Data` sheet in `NegativepHCalibration_T5_60.xlsx`. The MATLAB scripts were written for a workbook with one sheet per run (`5C_1` … `50C_3`); to run them, use a workbook in that layout or adapt the sheet handling.
-- **Reproducibility.** The MATLAB and Python pipelines reproduce the same calibration model: the fitted A(T), k(T), and x0(T) curves agree within ~3 mV for A and ~0.005 for k and x0 across 5–50 °C. The individual degree-3 polynomial coefficients can differ slightly between runs because the degree-3 fit over five temperature levels is weakly constrained (the coefficients trade off) and the Monte Carlo step uses an independent random stream; the resulting predictions are equivalent.
-- **Sign of k.** In `NegativeCalibration_Logistic_Stats.csv`, the growth-rate parameter `k` is stored as a positive value; the paper reports k with a negative sign (k = −0.4659 at 25 °C) under the sign convention of the logistic form used in the text. The magnitudes are identical.
-
 ## Citation
 
 If you use these data or code, please cite:
