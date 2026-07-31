@@ -2,7 +2,6 @@
 
 **Sarawud Saleesongsom, Dominik Weiss, and Yves Plancherel**
 *ACS Omega* **2026**, *11* (27), 40120–40133 · DOI: [10.1021/acsomega.6c01903](https://doi.org/10.1021/acsomega.6c01903)
-![Uploading Github graphic.png…]()
 
 ---
 
@@ -27,6 +26,9 @@ temperature: the Nernst slope `S(T)` and standard potential `E0(T)` by linear
 regression, and the logistic parameters `A(T)`, `k(T)`, `x0(T)` by polynomials whose
 degree is chosen automatically using the small-sample-corrected Akaike criterion
 (**AICc**).
+
+<img width="4601" height="4299" alt="Github graphic" src="https://github.com/user-attachments/assets/3e387d1b-2a37-416c-a828-17c44bc881b2" />
+
 
 ## The four calibration workflows
 
